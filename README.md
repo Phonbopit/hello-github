@@ -1,7 +1,7 @@
 Hello Github
 ---
 
-Repository นี้จัดทำขึ้นเพื่อเป็น Workshop เล็กๆน้อยๆ จากบทความ []() เพื่อให้สามารถใช้ Git ได้อย่างถูกต้อง เช่น `clone` , `push`, `pull`, `brach`, `merge` รวมถึงฟีทเจอร์ของ  Github ด้วย เช่น `Fork`  
+Repository นี้จัดทำขึ้นเพื่อเป็น Workshop เล็กๆน้อยๆ จากบทความ [Git คืออะไร ? + พร้อมสอนใช้งาน Git](http://devahoy.com/2015/08/introduction-to-git-and-github/) เพื่อให้สามารถใช้ Git ได้อย่างถูกต้อง เช่น `clone` , `push`, `pull`, `brach`, `merge` รวมถึงฟีทเจอร์ของ  Github ด้วย เช่น `Fork`  
 
 ## เงื่อนไขในการ Pull Request (PR)
 
@@ -15,3 +15,4 @@ Repository นี้จัดทำขึ้นเพื่อเป็น Works
 
 เป็นอันเรียบร้อย ง่ายมั้ยครับ?  หากใครมีอะไรสงสัย [เปิด issue ถามได้ตลอดครับ](https://github.com/Phonbopit/hello-github/issues/new)
 
+# Link ไปที่บทความ : [Git คืออะไร ? + พร้อมสอนใช้งาน Git](http://devahoy.com/2015/08/introduction-to-git-and-github/)
