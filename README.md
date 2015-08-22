@@ -11,7 +11,7 @@ Repository นี้จัดทำขึ้นเพื่อเป็น Works
 4. ภายในโฟลเดอร์ของตัวเอง จะเป็นสิ่งที่แต่ละคนจะแก้ไขครับ สามารถใส่อะไรมาก็ได้ อยากแนะนำตัว ใส่โค๊ด   snippets มาหรืออะไรก็ได้ แต่ขอแค่ ต้องมีไฟล์ `README.md` มาด้วย
 5. เมื่อแก้ไข้เรียบร้อยแล้ว ให้ทำการกด Pull Request เพื่อทำการส่ง Pull Request มาที่ตัว original repository ของผม
 
-ใครทำไม่ตรงตามเงื่อนไขจะไม่ได้รับการกด Accept Pull Request (PR) นะครับ สำหรับตัวอย่าง [Example โฟลเดอร์ของผม สามารถดูได้ที่นี่]()
+ใครทำไม่ตรงตามเงื่อนไขจะไม่ได้รับการกด Accept Pull Request (PR) นะครับ สำหรับตัวอย่าง [Example โฟลเดอร์ของผม สามารถดูได้ที่นี่](https://github.com/Phonbopit/hello-github/tree/master/phonbopit)
 
 เป็นอันเรียบร้อย ง่ายมั้ยครับ?  หากใครมีอะไรสงสัย [เปิด issue ถามได้ตลอดครับ](https://github.com/Phonbopit/hello-github/issues/new)
 
