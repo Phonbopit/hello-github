@@ -1,2 +1,2 @@
 Simple GitHub 
-# crete by Mai2535
+# create by Mai2535
