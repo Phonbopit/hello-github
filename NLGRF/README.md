@@ -1,6 +1,6 @@
 #-- Non SUT Robot --
 
-![Screenshot](/image/maxresdefault.jpg)
+![Screenshot](maxresdefault.jpg)
 
 ## Trick T-Rex
 
