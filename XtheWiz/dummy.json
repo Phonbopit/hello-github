@@ -1,0 +1,14 @@
+{
+  username: 'XtheWiz',
+  level: 0
+  exp: 0
+  gold: -999999999
+  items: [
+    'Noob Sword',
+    'Green Herb'
+  ],
+  pet: {
+    name: 'Henrik',
+    type: 'Canivore',
+  }
+}
