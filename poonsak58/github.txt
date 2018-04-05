@@ -1,41 +1,41 @@
-################################################### Local Git ################################################################
+################################################### Local Git ########################################################
 git config --global user.name "YOURNAME"
 git config --global user.email "your@email.com"
 git config --list
 
-echo "# test" >> README.md		//สร้างไฟล์ readme.md
+echo "# test" >> README.md		//เธชเธฃเนเธฒเธเนเธเธฅเน readme.md
 
 git init		//create git repository
 git status		//check status git
 
-git add index.html	//add เฉพาะเจาะจงไฟล์
-git add .		//add ไฟล์ทั้งหมด
-git add '*.txt'	//*.txt ไฟล์ทั้งหมด
-เราสามารถ ignore ได้ว่าจะให้ git ไม่ต้องเก็บไฟล์ไหน โดยสร้างไฟล์ชื่อ .gitignore ไว้ที่ root folder ภายในก็กำหนดค่าเช่น *.log ไม่ต้องเก็บไฟล์ .log ทั้งหมดไว้บน git เป็นต้น
+git add index.html	//add เน€เธเธเธฒเธฐเน€เธเธฒเธฐเธเธเนเธเธฅเน
+git add .		//add เนเธเธฅเนเธ—เธฑเนเธเธซเธกเธ”
+git add '*.txt'	//*.txt เนเธเธฅเนเธ—เธฑเนเธเธซเธกเธ”
+เน€เธฃเธฒเธชเธฒเธกเธฒเธฃเธ– ignore เนเธ”เนเธงเนเธฒเธเธฐเนเธซเน git เนเธกเนเธ•เนเธญเธเน€เธเนเธเนเธเธฅเนเนเธซเธ เนเธ”เธขเธชเธฃเนเธฒเธเนเธเธฅเนเธเธทเนเธญ .gitignore เนเธงเนเธ—เธตเน root folder เธ เธฒเธขเนเธเธเนเธเธณเธซเธเธ”เธเนเธฒเน€เธเนเธ *.log เนเธกเนเธ•เนเธญเธเน€เธเนเธเนเธเธฅเน .log เธ—เธฑเนเธเธซเธกเธ”เนเธงเนเธเธ git เน€เธเนเธเธ•เนเธ
 
 git commit -m "your message"
 
-git branch create_new_page	//สร้างสาขา
-git branch		//ดูสาขาทั้งหมด
-git branch -d branch_name	//ลบสาขา
+git branch create_new_page	//เธชเธฃเนเธฒเธเธชเธฒเธเธฒ
+git branch		//เธ”เธนเธชเธฒเธเธฒเธ—เธฑเนเธเธซเธกเธ”
+git branch -d branch_name	//เธฅเธเธชเธฒเธเธฒ
 
-git checkout branch_name	//เลือกสาขา
-git checkout -b create_new_page		//สร้างแล้วเลือก
+git checkout branch_name	//เน€เธฅเธทเธญเธเธชเธฒเธเธฒ
+git checkout -b create_new_page		//เธชเธฃเนเธฒเธเนเธฅเนเธงเน€เธฅเธทเธญเธ
 
-git merge create_new_page	// รวมไฟล์ ก่อนใช้ต้องเลือก สาขาหลักก่อน git checkout master
-################################################### Server Git ################################################################
-git remote -v	//เช็ค git host location
-git remote add origin https://github.com/poonsak58/git101.git	//เพิ่ม git host location
-git push -u origin master	//อัพโหลดขึ้นโฮส	-u : เอาไว้จำ parameter origin master ต่อไปก็แค่พิมพ์ git push	origin : คือชื่อ alias ของ remote (github)	master : คือชื่อ branch ที่เราต้องการ push ขึ้นไป
+git merge create_new_page	// เธฃเธงเธกเนเธเธฅเน เธเนเธญเธเนเธเนเธ•เนเธญเธเน€เธฅเธทเธญเธ เธชเธฒเธเธฒเธซเธฅเธฑเธเธเนเธญเธ git checkout master
+################################################### Server Git #########################################################
+git remote -v	//เน€เธเนเธ git host location
+git remote add origin https://github.com/poonsak58/git101.git	//เน€เธเธดเนเธก git host location
+git push -u origin master	//เธญเธฑเธเนเธซเธฅเธ”เธเธถเนเธเนเธฎเธช	-u : เน€เธญเธฒเนเธงเนเธเธณ parameter origin master เธ•เนเธญเนเธเธเนเนเธเนเธเธดเธกเธเน git push	origin : เธเธทเธญเธเธทเนเธญ alias เธเธญเธ remote (github)	master : เธเธทเธญเธเธทเนเธญ branch เธ—เธตเนเน€เธฃเธฒเธ•เนเธญเธเธเธฒเธฃ push เธเธถเนเธเนเธ
 
-git fetch	//เช็คโค้ด local กับ host ตรงกันหรือไม่
+git fetch	//เน€เธเนเธเนเธเนเธ” local เธเธฑเธ host เธ•เธฃเธเธเธฑเธเธซเธฃเธทเธญเนเธกเน
 git status
-git merge origin/master	//ดาวโหลดไฟล์อัพเดท จาก origin สาขา master
+git merge origin/master	//เธ”เธฒเธงเนเธซเธฅเธ”เนเธเธฅเนเธญเธฑเธเน€เธ”เธ— เธเธฒเธ origin เธชเธฒเธเธฒ master
 
-git pull	//ดาวโหลดไฟล์อัพเดท
+git pull	//เธ”เธฒเธงเนเธซเธฅเธ”เนเธเธฅเนเธญเธฑเธเน€เธ”เธ— *เน€เธเนเธเธเธฒเธฃเนเธเนเธเธณเธชเธฑเนเธ fetch เนเธฅเธฐ merge เนเธเนเธเธ•เธฑเธง
 
-git clone https://github.com/poonsak58/git101.git	//ก๊อปปี้โปรเจคจากโฮส
-################################################### First Time and have project on local ################################################################
+git clone https://github.com/poonsak58/git101.git	//เธเนเธญเธเธเธตเนเนเธเธฃเน€เธเธเธเธฒเธเนเธฎเธช
+################################################### First Time and have project on local #####################################
 git init
 git add .
 git commit -m "your message"
@@ -43,12 +43,12 @@ git remote add origin https://github.com/poonsak58/git101.git
 git remote -v
 git push -u origin master
 
-############################### When server have update. Then check update local match server?  #########################################################
+############################### When server have update. Then check update local match server? ################################
 git fetch
-git status			// แสดงรายละเอียดของ git local ว่าเก่าหรือใหม่กว่า origin (host)
-git merge origin/master	// หรือจำใช้ git pull ก็ได้ มันคือการใช้คำสั่ง git fetch ต่อด้วย git merge origin/master
-############################### When local have update. Then upload to server.  #########################################################
+git status			// เนเธชเธ”เธเธฃเธฒเธขเธฅเธฐเน€เธญเธตเธขเธ”เธเธญเธ git local เธงเนเธฒเน€เธเนเธฒเธซเธฃเธทเธญเนเธซเธกเนเธเธงเนเธฒ origin (host)
+git merge origin/master	// เธซเธฃเธทเธญเธเธณเนเธเน git pull เธเนเนเธ”เน เธกเธฑเธเธเธทเธญเธเธฒเธฃเนเธเนเธเธณเธชเธฑเนเธ git fetch เธ•เนเธญเธ”เนเธงเธข git merge origin/master
+############################### When local have update. Then upload to server.  #############################
 git add .
 git commit -m "your message"
 git push
-git status			// แสดงรายละเอียดของ git local ว่าเก่าหรือใหม่กว่า origin (host)
+git status			// เนเธชเธ”เธเธฃเธฒเธขเธฅเธฐเน€เธญเธตเธขเธ”เธเธญเธ git local เธงเนเธฒเน€เธเนเธฒเธซเธฃเธทเธญเนเธซเธกเนเธเธงเนเธฒ origin (host)
