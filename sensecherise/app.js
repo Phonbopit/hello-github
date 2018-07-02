@@ -1,0 +1,1 @@
+console.log('thanks for your knowledge naaa :)');
