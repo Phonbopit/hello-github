@@ -2,6 +2,7 @@ Hello Github
 ---
 
 Repository นี้จัดทำขึ้นเพื่อเป็น Workshop เล็กๆน้อยๆ จากบทความ [Git คืออะไร ? + พร้อมสอนใช้งาน Git และ Github](https://devahoy.com/blog/2015/08/introduction-to-git-and-github/) เพื่อให้สามารถใช้ Git ได้อย่างถูกต้อง เช่น `clone` , `push`, `pull`, `brach`, `merge` รวมถึงฟีทเจอร์ของ  Github ด้วย เช่น `Fork`  
+Repository นี้จัดทำขึ้นเพื่อเป็น Workshop เล็กๆน้อยๆ จากบทความ [Git คืออะไร ? + พร้อมสอนใช้งาน Git และ Github](https://devahoy.com/blog/2015/08/introduction-to-git-and-github/) เพื่อให้สามารถใช้ Git ได้อย่างถูกต้อง เช่น `clone` , `push`, `pull`, `branch`, `merge` รวมถึงฟีทเจอร์ของ  Github ด้วย เช่น `Fork`  
 
 ## เงื่อนไขในการเปิด Pull Request (PR)
 
