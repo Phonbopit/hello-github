@@ -1,0 +1,16 @@
+{
+    "username": "JcsnP",
+    "name": "Chitsanupong Paenyoi",
+    "age": "2x",
+    "skills": [
+        "JavaScript",
+        "C++",
+        "Python"
+    ],
+    "education": {
+        "university": "Walailak University",
+        "field of study": "Bachelor of Science",
+        "major subject": "Software Engineering",
+        "minor subject": "Embedded System Engineering"
+    }
+}
