@@ -14,7 +14,7 @@ profile.json
     ],
     "education": {
         "university": "Walailak University",
-        "field of study": "Bachelor of Science",
+        "field of study": "Bachelor of Science (Software Engineering)",
         "major subject": "Software Engineering",
         "minor subject": "Embedded System Engineering"
     }
